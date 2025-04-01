@@ -3,4 +3,5 @@ WAREHOUSE = compute_wh
 TARGET_LAG = '1 day'
 AS
 SELECT * 
-FROM tasty_bytes_sample_data.raw_pos.menu;
+FROM tasty_bytes_sample_data.raw_pos.menu
+limit 20;
